@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Desafio Bootstrap</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Floreria ASH</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="bg-secondary"><br>
+      <h1 class="mx-auto text-light p-2" style="width: 500px;">Galeria: Floreria ASH</h1>
+      <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner w-100">
+          <div class="carousel-item active">
+            <img src="./Fotos/flor1.jpg" class="d-block w-100" alt="Flores 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Fotos/flor2.jpg" class="d-block w-100" alt="Flores 2">
+          </div>
+          <div class="carousel-item">
+            <img src="./Fotos/flor3.jpg" class="d-block w-100" alt="Flores 3">
+          </div>
+          <div class="carousel-item">
+            <img src="./Fotos/flor4.jpg" class="d-block w-100" alt="Flores 4">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br><br>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item bg-secondary">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <strong class="text-light">Descrición de la flor #1</strong> 
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum aperiam perspiciatis voluptates numquam illo! Iusto esse cumque explicabo ex nostrum, accusantium commodi voluptate dolore voluptatibus repellendus nam quod odit sed, atque, dolorem culpa non vel rem id. Quia iure atque eum eveniet alias quam! Qui alias id corrupti fuga.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-secondary">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong class="text-light">Descrición de la flor #2</strong> 
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, nisi sit. Veniam tenetur dolorum quidem? Accusamus saepe odio repellendus maiores laborum, facilis nam asperiores voluptas enim deserunt? Natus a rerum ex facilis? Unde dicta, in sunt repudiandae, et aliquid, ex impedit cupiditate similique provident quae sint hic itaque! Excepturi, amet?
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-secondary">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <strong class="text-light">Descrición de la flor #3</strong> 
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cumque in dolorum fugiat sunt provident minima, obcaecati architecto temporibus dicta numquam quod, tenetur enim. Commodi sint molestiae non ratione, expedita ea aperiam neque iste. Sapiente in corporis consequatur optio unde! Ex repellat illo dolorem, laboriosam autem eum ipsum odit amet?
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-secondary">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+              <strong class="text-light">Descrición de la flor #4</strong> 
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, nisi sit. Veniam tenetur dolorum quidem? Accusamus saepe odio repellendus maiores laborum, facilis nam asperiores voluptas enim deserunt? Natus a rerum ex facilis? Unde dicta, in sunt repudiandae, et aliquid, ex impedit cupiditate similique provident quae sint hic itaque! Excepturi, amet?
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer">
+      <div class="card bg-warning">
+        <div class="card-footer">
+          Floreria ASH
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+            <footer class="blockquote-footer">Michael Jordan <cite title="Source Title"></cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
